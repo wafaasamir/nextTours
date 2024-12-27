@@ -1,0 +1,30 @@
+.breadcrumb{
+  height: 40vh;
+}
+
+.breadcrumb img {
+    filter: brightness(0.4);
+}
+
+.breadcrumb h1 {
+  color: white;
+  font-weight: 700;
+  font-size: 3em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.breadcrumb button{
+  background-color: #11bb67;
+  color: white;
+  font-weight: 500;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.breadcrumb button:hover {
+  color: white;
+  background-color: #11bb67;
+}

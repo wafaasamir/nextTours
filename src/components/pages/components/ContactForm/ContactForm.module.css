@@ -1,0 +1,24 @@
+#contactForm input,
+#contactForm textarea{
+    border: 1px solid #D3D4D2;
+}
+
+#contactForm .sendMessageBtn:hover {
+  background-color: white;
+  color: #11bb67;
+   border: #11bb67 1px solid;
+}
+
+.contactForm .sendMessageBtn{
+    background-color: #11bb67;
+    color: white;
+}
+
+.contactForm .sendMessageBtn:hover{
+    background-color: #0a5d33;
+    color: white;
+}
+
+.contactForm .error{
+    font-size: 0.9em;
+}
