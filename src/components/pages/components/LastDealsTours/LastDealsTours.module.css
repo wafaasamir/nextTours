@@ -1,0 +1,35 @@
+.greenColor{
+    color: #11bb67;
+}
+
+.orangeColor{
+    color: #ff6525;;
+}
+
+.lastDeals{
+    background-color: #F3F8F6;
+}
+
+.toursDetailsPartTitle{
+    background-color: #11bb67;
+}    
+
+.tourDetailsLeft button{
+    background-color: #dbecd4;
+    margin: 0 10px;
+}
+
+.lastDealsRate svg{
+    color: #ff6525;
+}
+
+.tourLink {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+  }
+  
+  .tourLink:hover {
+    color: #11bb67;
+  }
+  

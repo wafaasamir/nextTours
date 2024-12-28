@@ -92,7 +92,7 @@ function ContactForm() {
           <input
             type="text"
             placeholder="First Name: "
-            className="w-100 p-3 rounded"
+            className="w-100 p-3 rounded border border-1"
             name="firstName"
             value={formData.firstName}
             onChange={handleInputChange}
@@ -105,7 +105,7 @@ function ContactForm() {
           <input
             type="text"
             placeholder="Last Name: "
-            className="w-100 p-3 rounded"
+            className="w-100 p-3 rounded border border-1"
             name="lastName"
             value={formData.lastName}
             onChange={handleInputChange}
@@ -118,7 +118,7 @@ function ContactForm() {
           <input
             type="text"
             placeholder="Email Address: "
-            className="w-100 p-3 rounded"
+            className="w-100 p-3 rounded border border-1"
             name="email"
             value={formData.email}
             onChange={handleInputChange}
@@ -131,7 +131,7 @@ function ContactForm() {
           <input
             type="tel"
             placeholder="Phone: "
-            className="w-100 p-3 rounded"
+            className="w-100 p-3 rounded border border-1"
             name="phone"
             value={formData.phone}
             onChange={handleInputChange}
@@ -144,7 +144,7 @@ function ContactForm() {
           <input
             type="text"
             placeholder="Subject: "
-            className="w-100 p-3 rounded"
+            className="w-100 p-3 rounded border border-1"
             name="subject"
             value={formData.subject}
             onChange={handleInputChange}
@@ -157,7 +157,7 @@ function ContactForm() {
           <textarea
             name="message"
             placeholder="Write a message..."
-            className="w-100 p-3 rounded"
+            className="w-100 p-3 rounded border border-1"
             rows="5"
             value={formData.message}
             onChange={handleInputChange}

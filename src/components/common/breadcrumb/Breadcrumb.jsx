@@ -1,12 +1,11 @@
 import React from 'react';
 import styles from './BreadCrumb.module.css';
-import breadcrumbImage from '../../assets/images/tours/breadcrumb.jpg';
 
 function Breadcrumb({ title, buttonText }) {
   return (
     <section className={`${styles.breadcrumb} position-relative container-fluid p-0 m-0`}>
       <img
-        src={breadcrumbImage}
+        src="/breadcrumb.jpg"
         alt="Can't Download Img"
         className="w-100 h-100"
       />

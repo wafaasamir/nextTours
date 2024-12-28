@@ -1,0 +1,78 @@
+.greenColor{
+    color: #11bb67 !important;
+}
+
+.orangeColor{
+    color: #ff6525;
+}
+
+.tourName{
+    font-weight: bolder;
+    font-size: 2.5em;
+}
+
+.greenColorBtn{
+    color: #11bb67 !important;
+    background-color: #dbecd4 !important;
+    margin: 0 5px;
+}
+
+.uList{
+    list-style: none;
+}
+
+p.rate{
+    color: #ff6525;
+}
+
+.tourMainImg{
+    border-radius: 5px;
+}
+
+.lineSperator{
+    border-top: dotted 2px #11bb67;
+}
+
+.tourFacilitiesChallenges{
+    height: 100%;
+}
+
+.tourFacilitiesChallenges p{
+    font-size: 1.2em;
+}
+.tourAmenties{
+    border: 1px dashed #11bb67;
+    border-radius: 5px;
+}
+
+.tourAmenties p{
+    margin: 0 1.5em;
+}
+
+.include,
+.exclude{
+    background-color: #F3F8F6;
+    position: relative;
+    border-radius: 10px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.include li,
+.exclude li{
+    margin: 5px 0;
+}
+
+.include li::before{
+    font-weight: 900;
+    content: "\2713";
+    color: green;
+    margin-right: 0.5rem;
+}
+
+.exclude li::before{
+    font-weight: 900;
+    content: "X";
+    color: red;
+    margin-right: 0.5rem;
+} 

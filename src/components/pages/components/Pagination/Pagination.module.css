@@ -1,0 +1,10 @@
+.pagination .btn{
+    background-color: #11bb67;
+    border: none;
+    color: white;
+    padding: 1.5rem;
+}
+
+.pagination button:hover{
+    background-color: #086a39;
+}
